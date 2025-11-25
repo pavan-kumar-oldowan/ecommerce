@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickCart</title>
+    <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=shopping_cart" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100&icon_names=favorite,home,search,settings" rel="stylesheet" />
+
+  </head>
+  <body>
+    <button class="toast" id="toast">Product Added</button>
+    <div class="header">
+      <div class="brand">
+        <span>Pavan Electronics Online Store</span>
+      </div>
+      <div class="search">
+        <input type="text" id="search" placeholder="search...."  >
+      </div>
+      <div class="ourcart">
+          
+          <button id="cart-toggle"><span class="material-symbols-outlined">
+                  shopping_cart
+                  </span></button>
+       
+      </div>
+    </div>
+    <div class="container1">
+       <div class="Products" id="Products">
+         
+       </div>
+    </div>
+      <div class="container">
+           <div class="name">
+               <p class="p2">Your Cart</p>  
+           </div>
+           <div class="cart" id="cart">
+           
+           </div>
+        <div class="total" >
+            <p id="total">Total:$0</p>
+        </div>
+        
+    </div>
+    <!-- ✅ Important: use type="module" -->
+    <script type="module" src="./dist/main.js"></script>
+  </body>
+</html>
