@@ -10,7 +10,7 @@ export const AvailableProducts = [
     { id: 7, name: "watch", price: 600, img: "./src/images/watch.jpg", description: "5-star Rating" },
     { id: 8, name: "airpods", price: 1600, img: "./src/images/airpods.jpg", description: "5-star Rating" }
 ];
-/**
+/* ///
  * Helper function to safely get a DOM element by ID.
  * @param id The ID of the element.
  * @returns The HTML element or null if not found.
